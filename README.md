@@ -10,6 +10,7 @@ BAroQUe is implemented in `baroque.py`, which is a command line script that take
 - The validation action to be run against the source directory
 
 Available actions include:
+
 |Argument | Description |
 | --- | --- |
 | -d, --directories | Validate directory structure |
