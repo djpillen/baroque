@@ -52,7 +52,12 @@ class BaroqueProject(object):
 
     def characterize_source_directory(self):
         """ Determine if source_directory is a shipment, collection, or item """
-        pass
+        if self.source_directory.endswith("shipment"):
+            return "shipment"
+        elif self.source_directory.endswith("collection"):
+            return "collection"
+        elif self.source_directory.endswith("-SR-1"):
+            return "item"
 
     def process_shipment(self, shipment_directory):
         """ Process all collections in a shipment """
