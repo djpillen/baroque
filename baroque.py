@@ -1,6 +1,6 @@
 import argparse
 
-from baroque.helpers import BaroqueProject
+from baroque.baroque_project import BaroqueProject
 from baroque.directory_validation import validate_directories
 from baroque.mets_validation import validate_mets
 from baroque.wav_bext_chunk_validation import validate_wav_bext_chunks
