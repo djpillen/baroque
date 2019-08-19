@@ -3,7 +3,7 @@ import shutil
 import tempfile
 import unittest
 
-from baroque.helpers import BaroqueProject
+from baroque.baroque_project import BaroqueProject
 
 
 class TestBaroque(unittest.TestCase):
